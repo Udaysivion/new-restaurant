@@ -96,7 +96,7 @@ export const FounderSection = () => {
        <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-20">
          <motion.div ref={ref} initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ duration: 1.5, ease: "easeOut" }} className="w-full md:w-5/12 relative">
             <div className="relative overflow-hidden border border-luxury p-2 bg-cream/20">
-               <img src="https://images.unsplash.com/photo-1581404113333-e8eeff3e7284?auto=format&fit=crop&q=80&w=800" alt="Executive Chef" className="w-full object-cover aspect-[4/5] filter grayscale contrast-125" />
+               <img src="/images/chef.png" alt="Executive Chef" className="w-full object-cover aspect-[4/5] filter grayscale contrast-125" />
                <div className="absolute inset-2 bg-gradient-to-t from-bg via-transparent to-transparent flex items-end p-8">
                  <div className="text-white">
                    <h3 className="font-heading font-light tracking-wide text-3xl">Rajeev Sharma</h3>

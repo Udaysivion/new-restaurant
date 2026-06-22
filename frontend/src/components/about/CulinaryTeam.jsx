@@ -7,19 +7,19 @@ const teamData = [
     name: "Arjun Mehta",
     role: "Chef de Cuisine",
     bio: "With over 15 years mastering regional Indian spices, Arjun brings an innovative yet deeply respectful approach to our daily tasting menus.",
-    image: "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&q=80&w=800"
+    image: "/images/chef.png"
   },
   {
     name: "Priya Singh",
     role: "Head Pastry Chef",
     bio: "Priya bridges the gap between traditional Indian mithai and classical French pastry techniques, resulting in extraordinary desserts.",
-    image: "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?auto=format&fit=crop&q=80&w=800"
+    image: "/images/pastry_chef.png"
   },
   {
     name: "Vikram Desai",
     role: "Director of Hospitality",
     bio: "Vikram ensures every guest experiences anticipatory, flawless service. His philosophy: 'Hospitality is invisible until it is felt.'",
-    image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&q=80&w=800"
+    image: "/images/founder.png"
   }
 ];
 

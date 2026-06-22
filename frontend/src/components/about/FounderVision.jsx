@@ -21,7 +21,7 @@ const FounderVision = () => {
             <div className="absolute inset-0 bg-primary/5 transform -skew-x-12 -translate-x-4 translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-1000"></div>
             <div className="relative border border-luxury overflow-hidden aspect-[3/4]">
               <img 
-                src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&q=80&w=1000" 
+                src="/images/chef.png" 
                 alt="Executive Chef Rajeev Sharma" 
                 className="w-full h-full object-cover transform transition-transform duration-1000 group-hover:scale-105"
               />

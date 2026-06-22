@@ -27,7 +27,7 @@ export const FounderEditorial = () => {
           
           <motion.div ref={ref} initial={{ opacity: 0, scale: 0.95 }} animate={inView ? { opacity: 1, scale: 1 } : {}} transition={{ duration: 1 }} className="w-full lg:w-1/2 relative">
             <div className="relative border border-luxury p-2 bg-cream/10 backdrop-blur-sm z-10">
-              <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&q=80&w=1000" alt="The Founder" className="w-full h-[600px] object-cover contrast-110" />
+              <img src="/images/founder.png" alt="The Founder" className="w-full h-[600px] object-cover contrast-110" />
             </div>
             <div className="absolute -bottom-8 -right-8 w-64 h-64 border border-primary/30 z-0"></div>
           </motion.div>
@@ -69,7 +69,7 @@ export const MasterChefEditorial = () => {
         <div className="flex flex-col lg:flex-row-reverse items-center gap-16 lg:gap-24">
           
           <motion.div ref={ref} initial={{ opacity: 0, x: 50 }} animate={inView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 1 }} className="w-full lg:w-5/12 relative">
-            <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&q=80&w=1000" alt="Master Chef" className="w-full h-[700px] object-cover contrast-110 border border-luxury" />
+            <img src="/images/chef.png" alt="Master Chef" className="w-full h-[700px] object-cover contrast-110 border border-luxury" />
             
             {/* Overlay Badge */}
             <div className="absolute bottom-8 -left-8 bg-bg border border-luxury p-6 shadow-2xl">
